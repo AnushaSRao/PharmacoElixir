@@ -23,8 +23,9 @@ smiles_dataset.smi : Dataset that consists of 71 SMILES structure which bind wit
 ProteinBindig.py: Code to find the drug target interaction score <br>
 
 ## Run Instructions
-1. Run ProteinBinding.py on your local machine <br>
+1. Install and setup DeepPurpose from the GitHub link provided above
+2. Place the file ProteinBinding.py in the cloned DeepPurpose directory and run the same<br>
 This exposes a public API that needs to be used as the URL to find the Drug Target Interaction score.<br>
-2. Run the ipynb notebook using GPU either on colab or on your local machine <br>
+3. Run the ipynb notebook using GPU either on colab or on your local machine <br>
 Please note the project needs GPU and will not work as expected without the same <br>
 
