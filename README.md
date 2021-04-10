@@ -18,9 +18,13 @@ molVecGen : git+https://github.com/EBjerrum/molvecgen.git <br>
 DeepPurpose : https://github.com/kexinhuang12345/DeepPurpose.git <br> 
 
 ## Files Present
-Capstone.ipynb : Complete code to generate valid molecules that bind with the target protein <br>
-smiles_dataset : Dataset that consists of 71 SMILES structure which bind with one or more of the target proteins <br>
-
+Code.ipynb : Complete code to generate valid molecules that bind with the target protein <br>
+smiles_dataset.smi : Dataset that consists of 71 SMILES structure which bind with one or more of the target proteins <br>
+ProteinBindig.py: Code to find the drug target interaction score <br>
 
 ## Run Instructions
+1.Run ProteinBinding.py on your local machine <br>
+This exposes a public API that needs to be used as the URL to find the Drug Target Interaction score.<br>
+2.Run the ipynb notebook using GPU either on colab or on your local machine <br>
+Please note the project needs GPU and will not work as expected without the same <br>
 
